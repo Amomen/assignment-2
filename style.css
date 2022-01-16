@@ -1,0 +1,307 @@
+/* Font */
+@import url();
+/* font end */
+/* -------------------Common styles Start-------------------------
+ ------------------------------------------------------------------------------------------*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffff;
+}
+
+
+/* ---------------------Common styles end----------
+----------------------------------------------------------------------------- */
+
+
+ /*------------------------------------- First section start -------------------------------------*/
+
+ .container{
+     margin-left: 120px ;
+     margin-right: 165px;
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+     grid-column-gap: 133px;
+ }
+
+
+.journey >.start {
+    font-weight: 700;       
+    font-size: 52px;
+    min-width:512px;
+}
+
+ .journey{
+     margin-top: 170px;
+ }
+
+ .journey h1{
+     font-weight :700;
+     
+     
+ }
+ .journey p{
+     font-weight: 600;
+     color: #3A3A3A;
+ }
+.my-para{
+    margin-top: 10px;
+}
+
+ .button a{
+     font-weight: 700;
+     text-decoration: none;
+     color: #ffff;
+     background-color:#E02C6D;
+     padding:10px 24px 10px 24px;
+     border-radius: 41px;
+     height: 44px;
+     width: 196px;
+     align-items: center;
+     justify-content: center;
+    
+ }
+ .book{
+     /* display: inline; */
+ }
+ .button{
+     /* display: flex; */
+     margin-top:50px ;
+      
+    }
+    .button a:hover{
+        background-color: tomato;
+        color: black;
+        
+    }
+    .awesome{
+        margin-left: 8px;
+    }
+
+    /* Camera part Start*/
+
+    .camera{
+        height: 414px;
+        width: 440px;
+        margin-top: 150px;
+        background: url(images/Circle\ design.svg);
+    }
+  .camera img:hover{
+      transform:scale(1.5);
+      transition: 1.5s;
+  }
+
+    
+    /* Camera part End*/
+
+
+
+/* ----------------------------------------First section end---------------------------------------- */
+
+ /* ----------------------------------------Second section start---------------------------------------- */
+
+ .container-2{
+     margin:100px  165px  100px 165px;
+ }
+
+
+.brands{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+
+}
+
+
+
+
+
+
+
+ /* ----------------------------------------Second section end---------------------------------------- */
+ /* <!------------------------------------ Popular setion start---------------------------------- --*/
+ 
+ .container-3{
+     margin:0 196px 0 200px ;
+     
+ }
+ .products
+ {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 15px;
+    justify-content: center;
+ }
+.popular{
+    text-align: center;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.products{
+    margin:
+}
+.p-backgrgound{
+    height: 476px;
+    width: 329px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    margin-top: 30px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: gainsboro;
+    
+}
+.p-image img{
+    width: 300px;
+    height: 256px;
+    margin: 17px 15px 203px 14px;
+}
+ .p-heading{
+     position: absolute;
+     margin-top: 277px;
+     margin-left: 14px;
+
+ }
+ .p-price{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+     font-weight: 400;
+     color:black;
+     position: absolute;
+     font-size: 24px;
+     margin-top: 333px;
+     margin-left: 14px;
+ }
+ .ratings{
+     margin-top: 395px;
+    display:flex;
+    flex-direction: column;
+    margin-top: 364px;
+    position: absolute;
+    
+    
+    
+ }
+ .stars{
+    
+     position: relative;
+     color: #FB8200;
+     margin-left: 14px;
+     margin-top: 8px;
+     
+
+     
+     
+ }
+ .rating-point{
+     display: flex;
+     margin-left: 150px;
+     position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: #5E6366;
+    margin-top: 10px;
+ }
+ .article{
+     font-weight: 700;
+     position: absolute;
+     margin-top: 398px;
+     margin-left: 14px;
+     color: #787885;
+ }
+
+ .see-more{
+     display: flex;
+     justify-content: flex-end;
+ }
+
+ .see-more a{
+    font-weight: 700;
+    text-decoration: none;
+    
+    color:#E02C6D;
+    padding:10px 24px 10px 24px;
+    border-radius: 41px;
+    height: 44px;
+    width: 196px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+}
+.see{
+    /* display: flex; */
+    margin-top:50px ;}
+
+
+/* <!------------------------------------ Popular setion end---------------------------------- --> */
+
+/* -------------footer section start------------- */
+
+.foot{
+    width: 100%;
+    margin-top: 100px;
+    
+    background-color: #0a0826;
+}
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.head h2{
+color: white;
+font-weight: 700;
+padding: 0;
+}
+.right{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-left: -6px;
+}
+.reserve{
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    margin-left: -6px;
+    margin-top: -20px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social >ul{
+    align-items: center;
+    margin-right: 50px;
+}
+.social >ul>li{
+    float: left;
+    margin-left: 16px;
+}
+.insta {
+    color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #22213c;
+    
+}
+.insta a{
+    font-size: 20px;
+}
+
+
+
+
+/* -------------footer section end------------- */
